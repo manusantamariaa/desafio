@@ -35,9 +35,15 @@ body{
     padding: 30px 25px;
     font-size: 20px;
 }
-.header li a{
+.header a{
     text-decoration: none;
     color: #000;
+    transition: .3s;
+}
+
+.header li a:hover{
+    color: #999;
+    transform: scale(1.1);
 }
 
 .wpp{
@@ -48,6 +54,11 @@ body{
 }
 .wpp img{
     width: 50px;
+    transition: .3s;
+}
+
+.wpp img:hover{
+    transform: scale(1.1);
 }
 
 .inicio{
@@ -156,6 +167,12 @@ body{
 
 .redes i{
     color: #000;
+    transition: .3s;
+}
+
+.redes i:hover{
+    color: #ddd;
+    transform: scale(1.2);
 }
 
 /* NOSOTROS PAGE */
