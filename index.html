@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,14 @@
     <link rel="shorcut icon" href="./img/logo.jpg">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS propio -->
     <link rel="stylesheet" href="css/animate.css">
     <title>UNIÓN AMERICANA</title>
 </head>
+
 <body>
     <header class="header">
         <a href="./index.html">
@@ -36,13 +42,14 @@
         </nav>
     </header>
     <main>
-        <div class="inicio index">
+        <div class="inicio">
             <h1>Club Social y Deportivo <br><span>UNIÓN AMERICANA</span></h1>
         </div>
         <!-- Ya se que la altura se establece con css pero lo dejo así para que se pueda apreciar -->
         <div class="description">
             <p>
-                Un club comprometido con su gente, su historia y sus deportes. Un club en donde la unión, la familia y el amor son bases para seguir adelante y apuntar por un futuro mejor.            </p>
+                Un club comprometido con su gente, su historia y sus deportes. Un club en donde la unión, la familia y
+                el amor son bases para seguir adelante y apuntar por un futuro mejor. </p>
         </div>
         <div class="servicios-container index">
             <div class="servicios-titulo">
@@ -51,17 +58,59 @@
             <div class="line"></div>
             <!-- Quiero tres secciones con imagenes y que vayan pasando solas -->
             <div class="servicios-imagenes">
-                <div>
-                    <img src="./img/pool2.jpg" alt="Infraestrutura">
-                    <article><strong>INFRASTRUCTURA</strong><br><br>Pileta climatizada, cancha de fútsal y fútbol, restaurante, cancha de padel, gimnasio y mucho más</article>
+                <div class="servicios-div">
+                    <!-- <img src="./img/pool2.jpg" alt="Infraestrutura"> -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/pool2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/esquina.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/cancha.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <article><strong>INFRASTRUCTURA</strong><br><br>Pileta climatizada, cancha de fútsal y fútbol,
+                        restaurante, cancha de padel, gimnasio y mucho más</article>
                 </div>
-                <div>
-                    <img src="./img/team.jpg" alt="Equipo">
-                    <article><strong>EQUIPO</strong><br><br>Torneo de fútbol y fútsal para todas las edades. ¡Sumate a nuestro equipo!</article>
+                <div class="servicios-div">
+                    <!-- <img src="./img/team.jpg" alt="Equipo"> -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/team.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/equipo3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/futsal2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <article><strong>EQUIPO</strong><br><br>Torneo de fútbol y fútsal para todas las edades. ¡Sumate a
+                        nuestro equipo!</article>
                 </div>
-                <div>
-                    <img src="./img/padel.jpg" alt="Deportes" >
-                    <article><strong>DEPORTES</strong><br><br>Fútbol, fútsal, boxeo, natación, patín, padel, kick boxing y muchos deportes más. ¡Unite a nosotros! </article>
+                <div class="servicios-div">
+                    <!-- <img src="./img/padel.jpg" alt="Deportes" > -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/padel.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/patin.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/futsal.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <article><strong>DEPORTES</strong><br><br>Fútbol, fútsal, boxeo, natación, patín, padel, kick boxing
+                        y muchos deportes más. ¡Unite a nosotros! </article>
                 </div>
             </div>
         </div>
@@ -71,11 +120,11 @@
             </a>
         </div>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="footer-container">
-            <p>uamericana@gmail.com</p>
-            <!-- DESPUES QUIERO VER COMO USAR BIEN WOW -->
-            <ul class="wow animate__bounceInUp redes">
+            <p>uamericana@gmail.com</p> -->
+    <!-- DESPUES QUIERO VER COMO USAR BIEN WOW -->
+    <!-- <ul class="wow animate__bounceInUp redes"> 
                 <li>
                     <a href="https://www.facebook.com/FutsalUnionAmericana" target="_blank">
                         <i class="fa-brands fa-facebook fa-xl"></i>
@@ -91,14 +140,138 @@
                         <i class="fa-brands fa-twitter fa-xl"></i>
                     </a>
                 </li>
-            <!-- https://www.instagram.com/union.americana.natacion/ -->
-            </ul>
-            <p>Todos Los Derechos<br>  Reservados © 2022</p>
+                https://www.instagram.com/union.americana.natacion/ -->
+    <!-- </ul> 
+            <p>Todos Los Derechos<br> Reservados © 2022</p>
+        </div>
+    </footer> -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row footer-widgets">
+                <!-- footer widget about-->
+                <div class="col-sm-4 col-xs-12">
+                    <div class="footer-widget f-widget-about">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <p class="footer-logo">
+                                    <img src="./img/logo.jpg" alt="logo" class="logo">
+                                    Club Social y Deportivo UNIÓN AMERICANA
+                                </p>
+                                <p>
+                                    Nuestra misión
+                                    Fomentar y desarrollar en nuestros socios deportistas y socios generales el deporte
+                                    competitivo, formativo y recreativo; promoviendo nuestros valores y la integración
+                                    entre nuestros miembros, siendo el pilar fundamental contener a nuestros jóvenes en
+                                    el seno de la Institución.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.col-sm-4 -->
+                <!-- footer widget random posts-->
+                <!-- footer widget follow us-->
+                <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-12 footer-widget f-widget-follow">
+                        <div class="row">
+                            <h4 class="title">Social Media</h4>
+                            <ul>
+                                <!--Include social media links-->
+                                <!--if facebook url exists-->
+                                <li>
+                                    <a class="facebook" href="https://www.facebook.com/cafisherton/" target="_blank"><i
+                                            class="icon-facebook"></i></a>
+                                </li>
+                                <!--if twitter url exists-->
+                                <li>
+                                    <a class="twitter" href="twitter.com/CAF1915" target="_blank"><i
+                                            class="icon-twitter"></i></a>
+                                </li>
+                                <!--if pinterest url exists-->
+                                <!--if instagram url exists-->
+                                <li>
+                                    <a class="instagram" href="instagram.com/caf1915" target="_blank"><i
+                                            class="icon-instagram"></i></a>
+                                </li>
+                                <!--if linkedin url exists-->
+
+                                <!--if vk url exists-->
+
+                                <!--if telegram url exists-->
+
+                                <!--if youtube url exists-->
+                                <li>
+                                    <a class="youtube" href="https://www.youtube.com/channel/UCQlhE-3ZqZESRXLjcEQrGzQ"
+                                        target="_blank"><i class="icon-youtube"></i></a>
+                                </li>
+
+                                <!--if rss active-->
+                                <li>
+                                    <a class="rss" href="http://www.cafisherton.com/rss-feeds"><i class="icon-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- newsletter -->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="widget-newsletter">
+                                <p>Sede: Chassaing 1650, Rosario, Santa Fe</p>
+                                <p>Anexo Sebastian Figuerola (R), Muiño 9300, Rosario, Santa Fe</p>
+                                <p>Administración: 4514948 (Lun. a Sab. de 9 a 21hs)</p>
+                                <p>PileCAF (natación): 451 2144</p>
+                                <p>La cantina de fisherton te.0341-3908880</p>
+
+                                <div class="newsletter">
+                                    <div class="left">
+                                    </div>
+                                    <div class="right">
+                                    </div>
+                                </div>
+                                <p id="newsletter">
+                                </p>
+
+                            </div>
+                            <!-- /.news -->
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- .col-md-3 -->
+            </div>
+            <!-- .row -->
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-left">
+                            <p>Copyright © 2020/22 CAF | Gustavo Marin Diseño | Arbórea</p>
+                        </div>
+
+                        <div class="footer-bottom-right">
+                            <ul class="nav-footer">
+                                <li>
+                                    <a href="http://www.cafisherton.com/terminoss-condiciones">Términos &amp;
+                                        Condiciones </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
         </div>
     </footer>
     <script src="js/wow.min.js"></script>
     <script>
-    new WOW().init();
+        new WOW().init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
