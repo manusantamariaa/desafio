@@ -1,0 +1,28 @@
+DUDAS QUE TENGO:
+    -El nombre del club es Unión Americana (con tilde) ¿conviene ponerlo con tilde o sin? (capaz la gente suele no utilizarlo por eso).
+    -Lo mismo con los puntos y tildes de otras palabras.
+    -Es preferible escribir en neutro o con el voseo ¿"Descubre o descubrí"?
+
+Description:
+    -Index: Club Union Americana es un club del barrio Fisherton que comparte hace con su gente hace más de 70 años.
+    -Servicios: Enterate de todas las clases y servicios que nuestro club te puede ofrecer. 
+    -Nosotros: Información sobre nosotros, la historia del club y donde nos podes encontrar.
+    -Horarios:Descubri todos los horarios de nuestras clases y deportes.
+    -Contacto: Completa el formulario para que podamos ponernos en contacto con vos lo antes posible.
+
+Keywords:
+    -Index: Union Americana, Rosario, club, Fisherton, deportes
+    -Servicios: Union Americana, servicios, club, deportes, infraestrucura
+    -Nosotros:Union Americana, ubicación, nosotros, Rosario, historia, Fisherton
+    -Horarios:Union Americana, horarios, deportes, clases, disponibilidad
+    -Contacto:Union Americana, contacto, atencion, ayuda, duda
+
+Puse un solo h1 en todos los docs html. Utilizo como maximo un h2 en los docs html.
+
+Agregué etiquetas semanticas para resaltar las partes más importantes.
+
+Dividí textos largos.
+
+Agregué margenes para que los usuarios no tengan que mover tanto la cabeza.
+
+Comprimí la img man.jpg que pesaba 1,4MB y ahora pesa 800KB

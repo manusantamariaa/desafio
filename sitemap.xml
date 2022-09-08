@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/issues</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/pulls</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/security</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/commit/aef15717427bf1c19e2cc3d94e4afb7d825532a5</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/main/.gitignore</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/main/index.html</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/main/package-lock.json</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/main/package.json</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/releases</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/compare</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/3017772452</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/2959634624</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/2907485674</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/2907356625</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/security/policy</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/security/advisories</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/commit/1a68cb371dc736fff9b30de53ddef85f36cb9df6</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/aef15717427bf1c19e2cc3d94e4afb7d825532a5/.gitignore</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/find/main</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/aef15717427bf1c19e2cc3d94e4afb7d825532a5/index.html</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/aef15717427bf1c19e2cc3d94e4afb7d825532a5/package-lock.json</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/blob/aef15717427bf1c19e2cc3d94e4afb7d825532a5/package.json</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels?sort=name-asc</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels?sort=name-desc</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels?sort=count-desc</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels?sort=count-asc</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/bug</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/documentation</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/duplicate</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/enhancement</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/good%20first%20issue</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/help%20wanted</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/invalid</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/question</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/labels/wontfix</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/8257382128?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/8257389985?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/8257390122?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/3017772452/usage</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/8101888047?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/8101896256?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/8101896071?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/commit/1e541ac368f43b8bf89e4ba6161a3a73f687e369</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/2959634624/usage</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/7962291825?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/7962298600?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/7962298451?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/commit/9f10ff022bbe1abb34785c49f19a0f7fda5a0536</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/2907485674/usage</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/7961941050?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/7961944044?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/runs/7961944167?check_suite_focus=true</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/commit/c2ba2d318beee94193a437322969cfee0e9b8161</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/actions/runs/2907356625/usage</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aopen&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aclosed&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aopen+sort%3Acreated-asc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aopen+sort%3Aupdated-desc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aopen+sort%3Aupdated-asc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aopen+sort%3Aname-asc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/security/advisories?state=published</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/find/aef15717427bf1c19e2cc3d94e4afb7d825532a5</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aclosed+sort%3Acreated-asc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aclosed+sort%3Aupdated-desc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aclosed+sort%3Aupdated-asc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aclosed+sort%3Aname-asc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Acreated-asc+is%3Aopen&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Acreated-asc+is%3Aclosed&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aopen+sort%3Acreated-desc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Aupdated-desc+is%3Aopen&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Aupdated-desc+is%3Aclosed&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Aupdated-asc+is%3Aopen&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Aupdated-asc+is%3Aclosed&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Aname-asc+is%3Aopen&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Aname-asc+is%3Aclosed&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=is%3Aclosed+sort%3Acreated-desc&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Acreated-desc+is%3Aopen&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/manusantamariaa/desafio-gitHub/projects?query=sort%3Acreated-desc+is%3Aclosed&amp;type=classic</loc>
+  <lastmod>2022-09-08T19:35:19+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>
