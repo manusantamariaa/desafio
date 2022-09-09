@@ -1,3 +1,18 @@
+Footer:
+    -poner background negro y letras blancas
+    -agg la section3 con el Copyright
+    -hacer un grid para tamaño mayor a 768px
+    -hacer un photoshop del logo y el nombre (achicar el header)
+
+Header: 
+    -Centrar bien el logo en todos los tamaño
+
+Inicio:
+    -Centrar img de fondo
+    -Agrandar titulo
+
+
+Tengo miedo de que se me borre 
 * {
   padding: 0;
   margin: 0;

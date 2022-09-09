@@ -1,0 +1,82 @@
+.contacto-container{
+    margin-top: 25vh;
+    h1{
+        margin-bottom: 30px;
+        @include views-h1(center, 7vh, rgb(255, 63, 63), opacity(75%),1px 1px 2px #000000);
+        // text-align: center;
+        // font-size: 7vh;
+        // color: rgb(255, 63, 63);
+        // filter: opacity(75%);
+        // text-shadow: 1px 1px 2px #000000 ;
+    }
+}
+
+.contacto-div{
+    text-align: center;
+
+}
+
+.contacto-div{
+    input{
+    border: none;
+    }
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #bbb;
+	margin: 10vh 25vw;
+	border: 1vh solid #f76767;
+    border-radius: 15px;
+    label{
+        font-weight: 600;
+    }
+}
+
+.form {
+	min-width: 35vw;
+	flex: 1;
+	padding: 30px;
+	order: 10;
+}
+
+.form-input {
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 4px solid #f76767;
+	background-color: transparent;
+	color: #fff;
+	max-width: 500px;
+	&:focus {
+        background: linear-gradient(to bottom, transparent, #bbb);
+        border-bottom: 4px solid #f76767;
+        outline: none;
+    }
+}	
+
+.form textarea {
+	min-height: 140px;
+	resize: none;
+}
+
+.submit {
+	background-color: #f76767;
+	border: none;
+	padding: 12px;
+    &:hover{
+        background-color: #f76767;
+        border: none;
+        padding: 12px;
+    }
+    &:active{
+        background: linear-gradient(to bottom, #f76767, #ff3f3f);
+    }
+    &:focus {
+        background: linear-gradient(to bottom, #f76767, #ff3f3f);
+    }
+}

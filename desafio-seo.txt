@@ -2,6 +2,7 @@ DUDAS QUE TENGO:
     -El nombre del club es Unión Americana (con tilde) ¿conviene ponerlo con tilde o sin? (capaz la gente suele no utilizarlo por eso).
     -Lo mismo con los puntos y tildes de otras palabras.
     -Es preferible escribir en neutro o con el voseo ¿"Descubre o descubrí"?
+    -Estoy buscando una tipografia especifica, hay alguna herramienta para identificarla a traves de una img?
 
 Description:
     -Index: Club Union Americana es un club del barrio Fisherton que comparte hace con su gente hace más de 70 años.
@@ -21,8 +22,8 @@ Puse un solo h1 en todos los docs html. Utilizo como maximo un h2 en los docs ht
 
 Agregué etiquetas semanticas para resaltar las partes más importantes.
 
-Dividí textos largos.
-
 Agregué margenes para que los usuarios no tengan que mover tanto la cabeza.
 
 Comprimí la img man.jpg que pesaba 1,4MB y ahora pesa 800KB
+
+Complete el alt de casi todas las imagenes
