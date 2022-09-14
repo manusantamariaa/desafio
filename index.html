@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shorcut icon" href="./img/logo.jpg">
+    <link rel="shorcut icon" href="./img/logo.png">
     <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
     <!-- Description -->
-    <meta name="description" content="Club Union Americana es un club del barrio Fisherton que comparte hace con su gente hace más de 70 años.">
+    <meta name="description"
+        content="Club Union Americana es un club del barrio Fisherton que comparte hace con su gente hace más de 70 años.">
     <!-- Keywords -->
-    <meta name="keywords" content="Union Americana, Rosario, club, Fisherton, deportes"> 
+    <meta name="keywords" content="Union Americana, Rosario, club, Fisherton, deportes">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -25,7 +26,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <div class="sideBar"></div>
-                <a class="navbar-brand"><img src="./img/logo.png" alt="logo de la página"></a>
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="logo de la página del Club Union Americana"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -51,50 +52,25 @@
                 </div>
             </div>
         </nav>
-        <!-- <a href="./index.html">
-            <img src="./img/logo.png" alt="Logo" height="30px">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./pages/servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="./pages/horarios.html">Horarios</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav> -->
     </header>
     <main>
         <!-- INICIO -->
         <div class="inicio">
             <h1>Club Social y Deportivo <br><span>UNIÓN AMERICANA</span></h1>
         </div>
-        <!-- Ya se que la altura se establece con css pero lo dejo así para que se pueda apreciar -->
         <div class="description">
-            <p>
-                Un club comprometido con su gente, su historia y sus deportes. Un club en donde la unión, la familia y
+            <p>Un club comprometido con su gente, su historia y sus deportes. Un club en donde la unión, la familia y
                 el amor son bases para seguir adelante y apuntar por un futuro mejor. </p>
         </div>
         <!-- SERVICIOS -->
-        <div class="servicios-container index">
-            <div class="servicios-titulo">
+        <div class="servicios">
+            <div class="servicios__titulo">
                 <h2>SERVICIOS</h2>
             </div>
-            <div class="line"></div>
+            <div class="servicios__line"></div>
             <!-- Quiero tres secciones con imagenes y que vayan pasando solas -->
-            <div class="servicios-imagenes">
-                <div class="servicios-div">
-                    <!-- <img src="./img/pool2.jpg" alt="Infraestrutura"> -->
+            <div class="servicios__imagenes">
+                <div class="servicios__card">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -108,47 +84,106 @@
                             </div>
                         </div>
                     </div>
-                    <article><strong>INFRASTRUCTURA</strong><br><br>Pileta climatizada, cancha de fútsal y fútbol,
+                    <h4><strong>Infraestrutura</strong></h4>
+                    <article>Pileta climatizada, cancha de fútsal y fútbol,
                         restaurante, cancha de padel, gimnasio y mucho más</article>
                 </div>
-                <div class="servicios-div">
-                    <!-- <img src="./img/team.jpg" alt="Equipo"> -->
+                <div class="servicios__card">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./img/team.jpg" class="d-block w-100" alt="Equipo de fútbol del Unión Americana">
+                                <img src="./img/team.jpg" class="d-block w-100"
+                                    alt="Equipo de fútbol del Unión Americana">
                             </div>
                             <div class="carousel-item">
-                                <img src="./img/equipo3.jpg" class="d-block w-100" alt="Equipo de fútbol del Unión Americana">
+                                <img src="./img/equipo3.jpg" class="d-block w-100"
+                                    alt="Equipo de fútbol del Unión Americana">
                             </div>
                             <div class="carousel-item">
-                                <img src="./img/futsal2.jpg" class="d-block w-100" alt="Equipo de fútsal del Unión Americana">
+                                <img src="./img/futsal2.jpg" class="d-block w-100"
+                                    alt="Equipo de fútsal del Unión Americana">
                             </div>
                         </div>
                     </div>
-                    <article><strong>EQUIPO</strong><br><br>Torneo de fútbol y fútsal para todas las edades. ¡Sumate a
+                    <h4><strong>Equipo</strong></h4>
+                    <article>Torneo de fútbol y fútsal para todas las edades. ¡Sumate a
                         nuestro equipo!</article>
                 </div>
-                <div class="servicios-div">
-                    <!-- <img src="./img/padel.jpg" alt="Deportes" > -->
+                <div class="servicios__card">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./img/padel.jpg" class="d-block w-100" alt="Cancha de padel">
+                                <img src="./img/padel.jpg" class="d-block w-100" alt="Cancha de padel con un chico jugando">
                             </div>
                             <div class="carousel-item">
-                                <img src="./img/patin.jpg" class="d-block w-100" alt="Niñas posando en un torneo de patín">
+                                <img src="./img/patin.jpg" class="d-block w-100"
+                                    alt="Niñas posando en un torneo de patín">
                             </div>
                             <div class="carousel-item">
                                 <img src="./img/futsal.jpeg" class="d-block w-100" alt="Partido de futsal de niños">
                             </div>
                         </div>
                     </div>
-                    <article><strong>DEPORTES</strong><br><br>Fútbol, fútsal, boxeo, natación, patín, padel, kick boxing
+                    <h4><strong>Deportes</strong></h4>
+                    <article>Fútbol, fútsal, boxeo, natación, patín, padel, kick boxing
                         y muchos deportes más. ¡Unite a nosotros! </article>
                 </div>
             </div>
         </div>
+        <div class="valores">
+            <div class="valores__vision card mb-3">
+                <div class="row g-0">
+                    <div class="valores__box col-md-4">
+                        <img src="./img/chicasFutbol.jpg" class="img-fluid rounded-start" alt="Chica del Unión Americana jugando al fútbol">
+                    </div>
+                    <div class="valores__text col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">VISIÓN</h5>
+                            <p class="card-text">Ser uno de los clubes lideres en la región. Generando absoluta confianza y calidad hacia nuestros
+                                socidos, como resultado del trabajo diario por ofrecer el mejor servicio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="valores__principios card mb-3">
+                <div class="row g-0">
+                    <div class="valores__text col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">VALORES DEL CLUB</h5>
+                            <div class="card-text">
+                                <ul>
+                                    <li>- Pasión</li>
+                                    <li>- Confianza</li>
+                                    <li>- Compromiso</li>
+                                </ul>
+                                <ul>
+                                    <li>- Respeto</li>
+                                    <li>- Honestidad</li>
+                                    <li>- Resp. Social</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="valores__box col-md-4">
+                        <img src="./img/chicasSaludo.png" class="img-fluid rounded-start" alt="Chicas del Unión Americana jugando al fútbol y saludandose">
+                    </div>
+                </div>
+            </div>
+            <div class="valores__mision card mb-3">
+                <div class="row g-0">
+                    <div class="valores__box col-md-4">
+                        <img src="./img/patinaje.jpg" class="img-fluid rounded-start" alt="Niña del club aprendiendo a patinar">
+                    </div>
+                    <div class="valores__text col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">MISIÓN</h5>
+                            <p class="card-text">Contribuir en el bienestar de nuestros socios a través del entrenamiento y diversión,
+                                foraleciendo su salud física, mental y alentándolos en su propia superación.</p>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </div> 
         <div class="wpp">
             <a href="https://wa.me/+543413664338" target="_blank">
                 <img src="./img/wpp.png" alt="WhatsApp">
@@ -174,7 +209,7 @@
             </div>
             <div class="section2__links">
                 <!-- QUIERO APRENDER WOW -->
-                <ul class="section2__redes"> 
+                <ul class="section2__redes">
                     <li>
                         <a href="https://www.facebook.com/FutsalUnionAmericana" target="_blank">
                             <i class="fa-brands fa-facebook fa-xl"></i>
@@ -195,15 +230,14 @@
                 <p>Anexo Sebastian Figuerola (R), Muiño 9300, Rosario, Santa Fe</p>
                 <p>Administración: 4514948 (Lun. a Sab. de 9 a 21hs)</p>
                 <p>PileCA (natación): 451 2144</p>
-                <p>La cantina de fisherton te.0341-3908880</p>
-        <!--</ul>  
-            </div>
-            <div class="section2__info">
-
+                <p>Email: uamericana@gmail.com</p>
             </div>
         </div>
         <div class="section3">
-            <span class="section3__copyright"></span>
+            <span class="section3__span">
+                <p class="section3__terminos">Términos y condiciones</p>
+                <p class="section3__copyright">Copyright © 2020/22 CA | Santamaria Manuel Diseños</p>
+            </span>
         </div>
     </footer>
     <!-- <footer class="footer">
@@ -232,7 +266,7 @@
         </div>
     </footer> -->
     <!-- FOOTER -->
-    
+
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
@@ -243,4 +277,3 @@
 </body>
 
 </html>
-

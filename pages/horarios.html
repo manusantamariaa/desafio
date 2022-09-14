@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shorcut icon" href="../img/logo.jpg">
+    <link rel="shorcut icon" href="../img/logo.png">
     <!-- Description -->
     <meta name="description" content="Descubrí todos los horarios de nuestras clases y deportes.">
     <!-- Keywords -->
@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <div class="sideBar"></div>
-                <a class="navbar-brand"><img src="../img/logo.png" alt="logo de la página"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo de la página"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -50,174 +50,184 @@
             </div>
         </nav>
     </header>
-    <!-- <header class="header">
-        <a href="../index.html">
-            <img src="../img/logo.jpg" alt="Logo" height="30px">
-        </a>  
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="./horarios.html">Horarios</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header> -->
     <main>
         <!-- HORARIOS -->
         <div class="horario-container">
             <h1>NUESTROS HORARIOS</h1>
-            <div class="horario-cards">
-                <div class="horario-card">
-                    <article>
-                        <h3>FÚTBOL</h3>
-                        <ul>
-                            <li>Lunes y Miercoles:
-                                <ul>
-                                    <li>16:00 a 18:00</li>
-                                    <li>19:00 a 21:00</li>
-                                </ul>
-                            </li>            
-                            <li>Martes y Jueves:
-                                <ul>
-                                    <li>15:00 a 17:00</li>
-                                    <li>18:00 a 20:00</li>
-                                </ul>
-                            </li>
-                        </ul>                
-                    </article>                
-                    <div class="horario-img uno">
-                        <img src="../img/equipo3.jpg" alt="Mujer">
+                
+            <div class="horario">
+                <div class="horario__futbol card mb-3">
+                    <div class="row g-0">
+                        <div class="horario__box  ">
+                            <img src="../img/equipo3.jpg" class="img-fluid rounded-start" alt="Equipo de jovenes de fútbol del club">
+                        </div>
+                        <div class="horario__text col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">FÚTBOL</h5>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Lunes y Miercoles:
+                                            <ul>
+                                                <li>16:00 a 18:00</li>
+                                                <li>19:00 a 21:00</li>
+                                            </ul>
+                                        </li>            
+                                        <li>Martes y Jueves:
+                                            <ul>
+                                                <li>15:00 a 17:00</li>
+                                                <li>18:00 a 20:00</li>
+                                            </ul>
+                                        </li>
+                                    </ul>    
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <br><br>
-                <div class="horario-card">
-                    <div class="horario-img dos">
-                        <img src="../img/box.jpg" alt="futsal">
-                    </div>
-                    <article>
-                        <h3>ARTES MARCIALES</h3>
-                        <ul>
-                            <li>Kick Boxing (toda la semana):
-                                <ul>
-                                    <li>19:00 a 20:00</li>
-                                    <li>20:00 a 21:00</li>
-                                </ul>
-                            </li>            
-                            <li>Boxeo (toda la semana):
-                                <ul>
-                                    <li>17:00 a 18:00</li>
-                                    <li>18:00 a 19:00</li>
-                                </ul>
-                            </li>    
-                        </ul>                    
-                    </article>
-                </div>
-                <div class="horario-card">
-                    <article>
-                        <h3>NATACIÓN</h3>
-                        <ul>
-                            <li>Lunes, Miercoles y Viernes:
-                                <ul>
-                                    <li>15:30 a 17:00</li>
-                                </ul>
-                            </li>            
-                            <li>Martes y Jueves:
-                                <ul>
-                                    <li>16:00 a 17:30</li>
-                                </ul>
-                            </li>
-                            <li>Sábados:
-                                <ul>
-                                    <li>9:30 a 11:00</li>
-                                </ul>
-                            </li>
-                        </ul>                    </article>                
-                    <div class="horario-img ">
-                        <img src="../img/swimmingClass.jpg" alt="Mujer">
+                <div class="horario__artes card mb-3">
+                    <div class="row g-0">
+                        <div class="horario__box  ">
+                            <img src="../img/box.jpg" class="img-fluid rounded-start" alt="Hombre golpeando a la bolsa de boxeo">
+                        </div>
+                        <div class="horario__text col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">ARTES MARCIALES</h5>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Kick Boxing (toda la semana):
+                                            <ul>
+                                                <li>19:00 a 20:00</li>
+                                                <li>20:00 a 21:00</li>
+                                            </ul>
+                                        </li>            
+                                        <li>Boxeo (toda la semana):
+                                            <ul>
+                                                <li>17:00 a 18:00</li>
+                                                <li>18:00 a 19:00</li>
+                                            </ul>
+                                        </li>    
+                                    </ul>   
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <br><br>
-                <div class="horario-card">
-                    <div class="horario-img dos">
-                        <img src="../img/futsal.jpeg" alt="futsal">
-                    </div>
-                    <article>
-                        <h3>FÚTSAL</h3>
-                        <ul>
-                            <li>Lunes y Miercoles:
-                                <ul>
-                                    <li>16:00 a 18:00</li>
-                                    <li>19:00 a 21:00</li>
-                                </ul>
-                            </li>            
-                            <li>Martes y Jueves:
-                                <ul>
-                                    <li>15:00 a 17:00</li>
-                                    <li>18:00 a 20:00</li>
-                                </ul>
-                            </li>
-                        </ul>                
-                    </article>      
-                </div>
-                <div class="horario-card">
-                    <article>
-                        <h3>PATINAJE</h3>
-                        <ul>
-                            <li>Lunes y Miercoles:
-                                <ul>
-                                    <li>16:00 a 18:00</li>
-                                    <li>19:00 a 21:00</li>
-                                </ul>
-                            </li>            
-                            <li>Martes y Jueves:
-                                <ul>
-                                    <li>15:00 a 17:00</li>
-                                    <li>18:00 a 20:00</li>
-                                </ul>
-                            </li>
-                        </ul>                
-                    </article>                 
-                    <div class="horario-img uno">
-                        <img src="../img/patinaje.jpg" alt="patinaje">
+                <div class="horario__natacion card mb-3">
+                    <div class="row g-0">
+                        <div class="horario__box  ">
+                            <img src="../img/swimmingClass.jpg" class="img-fluid rounded-start" alt="Mujeres haciendo natación">
+                        </div>
+                        <div class="horario__text col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NATACIÓN</h5>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Lunes, Miercoles y Viernes:
+                                            <ul>
+                                                <li>15:30 a 17:00</li>
+                                            </ul>
+                                        </li>            
+                                        <li>Martes y Jueves:
+                                            <ul>
+                                                <li>16:00 a 17:30</li>
+                                            </ul>
+                                        </li>
+                                        <li>Sábados:
+                                            <ul>
+                                                <li>9:30 a 11:00</li>
+                                            </ul>
+                                        </li>
+                                    </ul>   
+                                </div>                        
+                            </div>
+                        </div>                   
                     </div>
                 </div>
-                <br><br>
-                <div class="horario-card">
-                    <div class="horario-img dos">
-                        <img src="../img/padel.jpg" alt="futsal">
+                <div class="horario__patinaje card mb-3">
+                    <div class="row g-0">
+                        <div class="horario__box  ">
+                            <img src="../img/patinaje.jpg" class="img-fluid rounded-start" alt="Niña del club aprendiendo a patinar">
+                        </div>
+                        <div class="horario__text col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">PATINAJE</h5>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Lunes y Miercoles:
+                                            <ul>
+                                                <li>16:00 a 18:00</li>
+                                                <li>19:00 a 21:00</li>
+                                            </ul>
+                                        </li>            
+                                        <li>Martes y Jueves:
+                                            <ul>
+                                                <li>15:00 a 17:00</li>
+                                                <li>18:00 a 20:00</li>
+                                            </ul>
+                                        </li>
+                                    </ul>   
+                                </div>                        
+                            </div>
+                        </div>                   
                     </div>
-                    <article>
-                        <h3>PADEL</h3>
-                        <ul>
-                            <li>Lunes y Miercoles:
-                                <ul>
-                                    <li>16:00 a 18:00</li>
-                                    <li>19:00 a 21:00</li>
-                                </ul>
-                            </li>            
-                            <li>Martes y Jueves:
-                                <ul>
-                                    <li>16:00 a 17:00</li>
-                                    <li>19:00 a 20:00</li>
-                                </ul>
-                            </li>
-                        </ul>                
-                    </article>   
                 </div>
-            </div>
-        </div>
+                <div class="horario__futsal card mb-3">
+                    <div class="row g-0">
+                        <div class="horario__box  ">
+                            <img src="../img/futsal.jpeg" class="img-fluid rounded-start" alt="Partido de futsal">
+                        </div>
+                        <div class="horario__text col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">FÚTSAL</h5>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Lunes y Miercoles:
+                                            <ul>
+                                                <li>16:00 a 18:00</li>
+                                                <li>19:00 a 21:00</li>
+                                            </ul>
+                                        </li>            
+                                        <li>Martes y Jueves:
+                                            <ul>
+                                                <li>15:00 a 17:00</li>
+                                                <li>18:00 a 20:00</li>
+                                            </ul>
+                                        </li>
+                                    </ul>  
+                                </div>                        
+                            </div>
+                        </div>                   
+                    </div>
+                </div>
+                <div class="horario__padel card mb-3">
+                    <div class="row g-0">
+                        <div class="horario__box  ">
+                            <img src="../img/padel.jpg" class="img-fluid rounded-start" alt="Jovén jugando al padel">
+                        </div>
+                        <div class="horario__text col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">PADEL</h5>
+                                <div class="card-text">
+                                    <ul>
+                                        <li>Lunes y Miercoles:
+                                            <ul>
+                                                <li>16:00 a 18:00</li>
+                                                <li>19:00 a 21:00</li>
+                                            </ul>
+                                        </li>            
+                                        <li>Martes y Jueves:
+                                            <ul>
+                                                <li>16:00 a 17:00</li>
+                                                <li>19:00 a 20:00</li>
+                                            </ul>
+                                        </li>
+                                    </ul> 
+                                </div>                        
+                            </div>
+                        </div>                   
+                    </div>
+                </div>
+            </div> 
     </main>
     <!-- WHATSAPP -->
     <div class="wpp">
@@ -227,27 +237,53 @@
     </div>
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer-container">
-            <p>uamericana@gmail.com</p>
-            <ul class="redes">
-                <li>
-                    <a href="https://www.facebook.com/FutsalUnionAmericana" target="_blank">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/futsalunionamericana/?hl=es" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/" target="_blank">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </li>
-            <!-- https://www.instagram.com/union.americana.natacion/ -->
-            </ul>
-            <p>Todos Los Derechos<br>  Reservados © 2022</p>
+        <div class="section1">
+            <h3 class="section1__mision">
+                Club Social y Deportivo <br><strong>UNIÓN AMERICANA</strong>
+            </h3>
+            <p class="section1__p">
+                <strong>Nuestra misión</strong><br>
+                Fomentar y desarrollar en nuestros socios deportistas y socios generales el deporte
+                competitivo, formativo y recreativo; promoviendo nuestros valores y la integración
+                entre nuestros miembros, siendo el pilar fundamental contener a nuestros jóvenes en
+                el seno de la Institución.
+            </p>
+        </div>
+        <div class="section2">
+            <div class="section2__h4">
+                <h4>REDES SOCIALES</h4>
+            </div>
+            <div class="section2__links">
+                <!-- QUIERO APRENDER WOW -->
+                <ul class="section2__redes"> 
+                    <li>
+                        <a href="https://www.facebook.com/FutsalUnionAmericana" target="_blank">
+                            <i class="fa-brands fa-facebook fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/futsalunionamericana/?hl=es" target="_blank">
+                            <i class="fa-brands fa-instagram fa-xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p>Sede: Chassaing 1650, Rosario, Santa Fe</p>
+                <p>Anexo Sebastian Figuerola (R), Muiño 9300, Rosario, Santa Fe</p>
+                <p>Administración: 4514948 (Lun. a Sab. de 9 a 21hs)</p>
+                <p>PileCA (natación): 451 2144</p>
+                <p>Email: uamericana@gmail.com</p>  
+            </div>
+        </div>
+        <div class="section3">
+            <span class="section3__span">
+                <p class="section3__terminos">Términos y condiciones</p>
+                <p class="section3__copyright">Copyright © 2020/22 CA | Santamaria Manuel Diseños</p> 
+            </span>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

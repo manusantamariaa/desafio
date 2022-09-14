@@ -1,28 +1,7 @@
-.servicio-container{
-    margin-top: 25vh;
-}
-
-.servicios-titulo{
-    h3{
-        font-size: 6vh;
-    }
-} 
-
-.servicios-imagenes{
-    display: flex;
-    margin: 35px 0;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.servicios-cards{
-    div{
-    width: 350px;
-    height: 450px;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #cf7d7d;
-    box-shadow: 1px 1px 2px #0000001a #0000001f 0px -12px 30px, #0000001f 0px 4px 6px, #0000002b 0px 12px 13px, #00000017 0px -3px 5px;
+.servicios__imagenes{
+    .servicios__card{
+        img{
+            border-bottom: 4px solid #ff3f3f;
+        }
     }
 }

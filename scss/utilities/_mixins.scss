@@ -1,7 +1,6 @@
-@mixin views-h1 ($align, $size, $color, $opacity, $shadow){
+@mixin views-h1 ($align, $size, $color, $shadow){
     text-align: $align;
     font-size: $size;
     color: $color;
-    filter: $opacity;
     text-shadow: $shadow;
 }

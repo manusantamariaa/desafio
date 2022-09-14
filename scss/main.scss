@@ -11,86 +11,206 @@
 
 
 // BOOTSTRAP
-.row{
+.row {
     justify-content: space-between;
 }
 
-@media (min-width: 768px){
-    .footer{
-        display: flex;
-        flex-wrap: wrap;
-        .section1{
-            max-width: 60vw;
-            padding: 5vh 5vw;
+@media only screen and (min-width: 550px) {
+    .inicio {
+        h1 {
+            font-size: 5vw;
         }
-        .section2{
-            max-width: 40vw;
-            padding: 5vh 5vw;
+    }
+    .valores {
+        width: 100%;
+        .card{
+            img{
+                height: 100%;
+            }
+            .card-text{
+                font-size: 0.8rem;
+            }
+        }
+        &__box {
+            flex: 0 0 auto;
+            width: 40%;
+        }
+        &__text {
+            flex: 0 0 auto;
+            width: 60%;
+            .card-body{
+                height: 100%;
+                .card-text{
+                    height: 70%;
+                }
+            }
+        }
+        &__vision {
+            text-align: right;
+            img{
+                border-right: 4px solid #ff3f3f;
+            }
+        }
+        &__principios {
+            text-align: justify;
+            img{
+                border-left: 4px solid #ff3f3f;
+            }
+            .card-text {
+                display: flex;
+                justify-content: space-evenly;
+                ul {
+                    padding-left: 0;
+                }
+            }
+            li {
+                list-style: none;
+            }
+        }
+        &__mision {
+            text-align: right;
+            img{
+                border-right: 4px solid #ff3f3f;
+            }
+        }
+    }
+    .story-video{
+        height: 50vh;
+    }
+    .horario{
+        .card{
+            width: 45%;
         }
     }
 }
 
-// @media screen and (max-width: 768px) {
-//     .header{
-//         flex-wrap: wrap;
-//         justify-content: center;
-//         nav{
-//             width: 100%;
-//         }
-//         img{
-//             left: 0;
-//         }
-//         ul{
-//             justify-content: center;
-//             padding-left: 0;
-//             flex-wrap: wrap;
-//         }
-//         li{
-//             font-size: 1rem;
-//             padding: 2vh 3vw;
-//             font-size: 1rem;
-//         }
-//     }
+
+@media only screen and (min-width: 768px) {
+    .navbar-expand-lg {
+        .sideBar {
+            display: none;
+        }
+
+        .navbar-brand {
+            margin-left: 20px;
+        }
+
+        .navbar-nav {
+            flex-direction: row;
+        }
+
+        .navbar-collapse {
+            display: flex !important;
+            flex-basis: auto;
+        }
+
+        .navbar-toggler {
+            display: none;
+        }
+    }
+
+    .description {
+        padding: 30px 110px;
+    }
+    .servicios__card{
+        width: 450px;
+        article{
+            font-size: 1.1rem;
+            margin: 20px 30px;
+        }
+    }
+    .valores {
+        .card{
+            .card-text{
+                font-size: 1rem;
+                align-items: center;
+            }
+        }
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        grid-template-rows: 1.6fr 0.2fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+
+        .section1 {
+            grid-area: 1 / 1 / 2 / 2;
+            padding: 5vh 6vw;
+
+            &__p {
+                margin-top: 2rem;
+            }
+        }
+
+        .section2 {
+            grid-area: 1 / 2 / 2 / 3;
+            padding: 5vh 6vw;
+        }
+
+        .section3 {
+            grid-area: 2 / 1 / 3 / 3;
+
+            &__span {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .valores {
+        .card{
+            .card-title{
+                font-size: 1.7rem;
+            }
+            .card-text{
+                font-size: 1.3rem;
+                align-items: center;
+            }
+        }
+    }
+    .story-container{
+        margin: 0 20vw;
+        .story-video{
+            height: 60vh;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .horario {
+        .card{
+            .card-title{
+                font-size: 1.7rem;
+            }
+            .card-text{
+                font-size: 1.3rem;
+                align-items: center;
+            }
+        }
+    }
+    .contacto-container{
+        .flex-container{
+            margin: 10vh 25vw;
+        }
+    }
     
-//     .inicio{
-//         h1{
-//         font-size: 7vw;
-//         }
-//     }
+}
 
-//     .card{
-//         width: 70vw;
-//     }
-
-//     .card-img{
-//         width: 100%;
-//         max-height: 50vh;
-//         object-fit: contain;
-//     }
-
-//     .footer { 
-//         height: 30vh;
-//         width: 100vw;
-//     }
-
-//     .footer-container{
-//         display: flex;
-//         flex-direction: column;
-//         width: 75%;
-//         padding: 2vh 0;
-//         margin: auto;
-//         height: 9vh;
-//         align-items: center;
-//         justify-content: space-between;
-//         font-size: 3vh;
-//     }
-
-//     .contacto-container{
-//         h1{
-//         margin-top: 40vh;
-//         }
-//     }
-//     .flex-container {
-//         margin: 10vh 15vw;
-//     }
-// }
+@media (min-width: 1440px){
+    .valores {
+        margin: 0 20vw;
+        width: 60vw;
+        .card{
+            .card-title{
+                font-size: 2rem;
+            }
+            .card-text{
+                font-size: 1.7rem;
+            }
+        }
+    }
+}

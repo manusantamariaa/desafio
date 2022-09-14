@@ -1,11 +1,18 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif; 
+    box-sizing: border-box;
+    // color: #222
+    color: #394a4a;
+    font-weight: 500;
 }
 
 body{
-    background: radial-gradient(circle, #c3c3c3, #fff);
+    background: radial-gradient(circle, #EFEFEF, #fff);
+}
+
+h1, h2, span{
+    color: #ff3f3f;
 }
 
 .wpp{

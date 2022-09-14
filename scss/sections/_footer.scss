@@ -1,18 +1,27 @@
 .footer{
-    background-color: #9b9b9b;
+    background-color: #1d1e20;
     padding-top: 1rem;
+    margin-top: 10vh;
     .section1{
         @extend %footerSections;
         h3{
             font-weight: 600;
+            color: #fff;
+            strong{
+                color: inherit;
+            }
         }
         text-align: justify;
         padding: 5vh 10vw;
+        p, strong{
+            color: #aaa;
+        }
     }
     .section2{
         @extend %footerSections;
         h4{
             font-weight: 600;
+            color: #fff;
         }
         &__redes{
             display: flex;
@@ -20,37 +29,60 @@
             margin-top: 1rem;
             li{
                 list-style: none;
-                margin: 0 30px ;
-            }
-            i{
-                color: #000;
-                transition: .3s;
-                &:hover{
-                    color: #ddd;
-                    transform: scale(1.2);
+                margin-right: 1rem;
+                background-color: #2d2e30;
+                padding: 10px;
+                border-radius: 0.25rem;                
+                i{
+                    color: #aaa;
+                    transition: .3s;
+                    &:hover{
+                        color: #fff;
+                        transform: scale(1.2);
+                    }
                 }
-            }
+            } 
         }
         p{
             font-size: small;
+            color: #aaa;
+        }
+    }
+    .section3{
+        padding: 1rem 2rem 1rem 2rem ;
+        width: 100%;
+        border-top: 1px solid #2a2b2d;
+        &__span{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 13px;
+            margin: auto;
+            p {
+                margin: 0;
+                color: #aaa;
+            }
+        }
+        &__copyright{
+            text-align: center;
         }
     }
 }
 
 
-.footer-container{
-    display: flex;
-    width: 75%;
-    padding: 40px 20px;
-    margin: auto;
-    height: 50px;
-    align-items: center;
-    justify-content: space-between;
-}
+// .footer-container{
+//     display: flex;
+//     width: 75%;
+//     padding: 40px 20px;
+//     margin: auto;
+//     height: 50px;
+//     align-items: center;
+//     justify-content: space-between;
+// }
 
 
-.footer-logo img{
-    width: 10vw;
-}
+// .footer-logo img{
+//     width: 10vw;
+// }
 
 
